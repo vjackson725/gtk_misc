@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="ExampleWidget" parent="GtkWidget">
+    <child>
+      <object class="GtkBox">
+        <property name="orientation" context="button">vertical</property>
+        <child>
+          <object class="GtkButton" id="button">
+            <signal name="clicked" handler="button_clicked" swapped="yes"/>
+            <property name="label" context="button">Button</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>
