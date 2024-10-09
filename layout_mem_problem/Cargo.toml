@@ -1,0 +1,10 @@
+[package]
+name = "gtk_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = { version = "*", package = "gtk4", features = ["v4_8"] }
+
+[build-dependencies]
+glib-build-tools = "*"
